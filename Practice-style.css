@@ -1,0 +1,267 @@
+@font-face{
+	font-family: ans;
+	src: url(calibril.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: ans;
+	box-sizing: border-box;
+}
+nav{
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	background-color: rgba(211, 119, 91, 0.541);
+}
+.logo img{
+	width: 90px;
+	flex-basis: 10%;
+	height: auto;
+	cursor: pointer;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+.logo img:hover{
+	transition: 0.5s;
+	box-shadow: 10px 0px 4px rgba(26, 18, 18, 0.658);
+}
+/* ------Navbar----- */
+.nav-items{
+	 flex: 1;
+	 text-align: right;
+}
+.nav-items ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+}
+.nav-items ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 300;
+	padding: 6px 10px;
+}
+.nav-items ul li a:hover{
+	transition: 0.7s;
+	color: black;
+	border-radius: 10px;
+	border-bottom: 5px solid #3e576891;
+	box-shadow: rgba(116, 7, 7, 0.582);
+
+}
+/*------- text for center----- */
+.center-text{
+	position: relative;
+	background-color: darksalmon;
+	padding:10px 70px;
+	width: 38%;
+	margin-left: 30%;
+	text-align: center;
+	border: 2px;
+	border-radius: 59px;
+	box-shadow: 19px 14px 9px rgba(145, 128, 128, 0.692);
+
+}
+.center-text h2{
+	margin-bottom: 20px;
+	font-size: 50px;
+	cursor: pointer;
+	text-transform: capitalize;
+	font-style: italic;
+	font-variant: small-caps;
+	color: rgba(116, 7, 7, 0.582);
+    text-shadow: 2px 3px 3px gray;
+}
+.center-text p{
+	color: #50352ae8;
+	font-size:20px;
+	font-weight: 600;
+
+}
+.section-1{
+   background:url(images/image-1.jpg);
+   background-size: 90rem;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+   display: flex;
+   border-radius: 27px;
+   flex: 2;
+   margin: 70px 30px;
+   padding: 30px;
+}
+.center-content{
+	padding:30px;
+	margin-left: 10px;
+	border-radius: 30px;
+}
+.center-content p{
+	font-weight: 400;
+	font-size: 18px;
+}
+.center-content:hover{
+	border: 1px solid #88888a; 
+	box-shadow: 9px 8px 4px #88888a;
+}
+
+/* --------- this is our footer portion ---------*/
+
+footer{
+	position: relative;
+	margin: 10px 0;
+	/* margin-bottom: 10px; */
+	background-color: black;
+}
+.footer-content{
+	display: flex;
+	margin: 10px;
+}
+
+/* --******* footer && left-side ********-- */
+.left-side{
+	width: 40%;
+	margin-right: 100px;
+}
+.left-side h1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	color: blanchedalmond;
+	width: 150px;
+	text-align: center;
+	transition: 0.4s;
+}
+.left-side h1:hover{
+	color:#8195f7ee;
+	transform: translate(15px);
+}
+.left-side p{
+	color: white;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: 500;
+}
+.social-icons a span{
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+}
+#github-icon:hover{
+ 	border-radius: 10px;
+    background-color: #4b3b78;
+}
+#insta-icon:hover{
+	border-radius: 10px;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+#facebook-icon:hover{
+	border-radius: 10px;
+	color: white;
+	background-color: #38529a;
+}	
+#linkedin-icon:hover{
+	border-radius: 10px;
+	color: white;
+	background-color: #21567e;
+	transition: 0.5s;
+}
+
+/* --******** footer &&  center-side ******-- */
+.center-side{
+	margin-right: 200px;
+	margin-top: 0px;
+}
+.center-side h1{
+	padding-top: 10px;
+	cursor: pointer;
+	width: 10px;
+	color:blanchedalmond;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: left;
+	transition:0.4s;
+}
+.center-side h1:hover{
+	color: #8195f7ee;
+	transform:translate(0px);
+	font-size: 34px;
+}
+.footer-center-content{
+	width: 250px;
+}
+.footer-center-content .fa{
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	border-radius: 10px;
+	line-height: 30px;
+	text-align: center;
+	transition: 0.5s;
+}
+.footer-center-content .fa:hover{
+	background-color: rgba(165, 35, 35, 0.993);
+}
+.footer-center-content span, .footer-center-content p{
+	color:white;
+	padding: 5px;
+}
+/* --*******footre && right-side *******-- */
+.right-side{
+	justify-content: right;
+}
+
+.right-side h1{
+	cursor: pointer;
+	padding: 7px;
+	color:blanchedalmond;
+	transition: 0.4s;
+}
+.right-side h1:hover{
+	color: #8195f7ee;
+	transform: translate(-15px);
+}
+.right-side input{
+	width: 200px;
+}
+.right-side form .email-form, .right-side form textarea{
+	border: none;
+	border-radius: 5px;
+	background:transparent;
+	outline:none;
+	border: 2px solid white;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-decoration:none;
+	padding-bottom: 10px;
+}
+::placeholder{
+    padding: 0 10px ;
+	color: white;
+}
+.right-side .btn button{
+	padding: 5px 30px;
+	color: white;
+	transition: 0.4s;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	background-color: black;
+}
+.right-side .btn button:hover{
+	background-color: rgb(153, 130, 238);
+}
+
+
+
+
